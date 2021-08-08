@@ -1,0 +1,24 @@
+package week1.day1;
+
+public class While {
+	public static void main(String[] args) {
+		int num = 123; 
+		int sum = 0;		
+		
+		while (num>0) {
+			
+			int i = num%10; 
+			num = num/10;
+			sum = sum + i;
+			
+			//123%10 -- r=3, q=12 ,
+			//12%10 -- r=2 , q=1,
+			//1%10 -- r=0, q=1
+									
+		}
+		
+		System.out.println("sum of number is : " + sum);
+		
+	}
+
+}

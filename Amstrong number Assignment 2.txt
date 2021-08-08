@@ -1,0 +1,29 @@
+package week1.day1;
+
+public class AmstrongAssignment2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num= 56;
+int calculated = 0;
+int reminder;
+int original;
+original = num ;
+while (calculated != 0)
+{
+	reminder = calculated % 10;
+	original += Math.pow (reminder, 3);
+	reminder /= 10;
+	
+}
+if (original== num) {
+	System.out.println(num + " is amstrong number");
+	
+} else {
+	System.out.println(num + "is not amstrong number");
+
+}	
+
+	}
+
+}
